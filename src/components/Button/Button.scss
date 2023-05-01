@@ -1,0 +1,19 @@
+.btn {
+  border: none;
+  outline: none;
+  white-space: nowrap;
+  font-size: 16px;
+}
+.btn-primary {
+  border-radius: 48px;
+  padding: 24px 52px;
+  font-weight: 600;
+  background: #9c2330;
+  cursor: pointer;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  transition: 0.3s linear;
+}

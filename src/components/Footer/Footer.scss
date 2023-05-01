@@ -1,0 +1,143 @@
+.footer-wrapper {
+  background-image: url("../../assets/images/footer-background-img.png");
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  background-color: #191716;
+  padding-top: 50px;
+  .subscribe-block {
+    background: #9c2330;
+    max-width: 1000px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 50px 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .heading-content {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 18px;
+      img {
+        width: 80px;
+      }
+      h3 {
+        font-size: 30px;
+      }
+      h4 {
+        font-size: 26px;
+        color: #191716;
+        margin-top: 4px;
+      }
+    }
+
+    .input-group {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 30px;
+      background: #fff;
+      border-radius: 48px;
+
+      input {
+        min-width: 250px;
+        width: 100%;
+        background-color: transparent;
+        outline: none;
+        border: none;
+        font-size: 16px;
+        line-height: 28px;
+        color: rgba(0, 0, 0, 0.8);
+        padding-left: 24px;
+      }
+      > button {
+        border: none;
+        border-radius: 48px;
+        padding: 16px 54px 16px 38px;
+        font-size: 16px;
+        font-weight: 600;
+        background: #bda881;
+        cursor: pointer;
+        color: #191716;
+        min-width: 200px;
+        width: 100%;
+        min-height: 60px;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+        transition: 0.3s linear;
+        &:hover {
+          background: #191716;
+          color: #fff;
+        }
+
+        // position: relative;
+        // overflow: hidden;
+        // z-index: 1;
+        // &::before {
+        //   content: "";
+        //   position: absolute;
+        //   top: 0;
+        //   left: 0;
+        //   width: 0px;
+        //   height: 0px;
+        //   border-radius: 50%;
+        //   background: #9c2330;
+        //   transition: width 0.5s, height 0.5s;
+        // }
+        // &:hover::before {
+        //   width: 300px;
+        //   height: 300px;
+        // }
+        // span {
+        //   position: relative;
+        //   z-index: 1;
+        // }
+      }
+    }
+  }
+  .fish-img {
+    text-align: center;
+    padding: 70px 0 40px;
+    img {
+      width: 150px;
+    }
+    p {
+      font-size: 14px;
+      max-width: 700px;
+      line-height: 24px;
+      width: 100%;
+      margin: 20px auto;
+    }
+  }
+  .media-icons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 32px;
+    padding-bottom: 80px;
+  }
+  .topButton {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: #9c2330;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.1), -1px -1px 5px rgba(0, 0, 0, 0.1);
+    scroll-behavior: smooth;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 100;
+    cursor: pointer;
+    a {
+      img {
+        width: 30px;
+      }
+    }
+  }
+}

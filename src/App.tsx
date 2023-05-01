@@ -1,13 +1,14 @@
 import React from "react";
-import { Routes, Route } from "react-router-dom";
-import Hero from "./components/Hero";
+import Footer from "./components/Footer";
+import AboutCompany from "./components/AboutCompany";
+import WpbWrapper from "./components/wpbWrapper";
 
 const App: React.FC = () => {
   return (
     <>
-      <Routes>
-        <Route path="/" element={<Hero />} />
-      </Routes>
+      <WpbWrapper />
+      <AboutCompany />
+      <Footer />
     </>
   );
 };
