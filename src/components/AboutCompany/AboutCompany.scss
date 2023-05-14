@@ -5,8 +5,10 @@
   .about-container {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 42px;
+    gap: 18px;
     .first-content {
+      padding-right: 50px;
+
       h6 {
         color: #9c2330;
       }
@@ -37,9 +39,8 @@
     }
     .second-content {
       // margin: 0 auto;
-
       img {
-        // max-width: 678px;
+        min-width: 800px;
         width: 100%;
       }
     }

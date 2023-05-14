@@ -9,7 +9,7 @@ import Button from "../Button/Button";
 const AboutCompany: React.FC = () => {
   return (
     <div className="about-company-wrapper">
-      <div className="mx pad">
+      <div className="mx">
         <div className="about-container">
           <div className="second-content">
             <img src={Crab} alt="" />

@@ -3,6 +3,8 @@ import Footer from "./components/Footer";
 import AboutCompany from "./components/AboutCompany";
 import WpbWrapper from "./components/wpbWrapper";
 import Header from "./components/Header";
+import FishEgg from "./components/FishEgg";
+import QualityMonitoring from "./components/QualityMonitoring";
 
 const App: React.FC = () => {
   return (
@@ -10,6 +12,9 @@ const App: React.FC = () => {
       <Header />
       <WpbWrapper />
       <AboutCompany />
+      <FishEgg />
+      <QualityMonitoring />
+      <WpbWrapper />
       <Footer />
     </>
   );
