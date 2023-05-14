@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import Mail from "../../assets/icons/mail.png";
-import Logo from "../../assets/icons/logo.png";
+import Logo from "../../assets/images/logo.png";
 import { AiOutlinePlus } from "react-icons/ai";
 import { FaTwitter } from "react-icons/fa";
 import { FaFacebookF } from "react-icons/fa";

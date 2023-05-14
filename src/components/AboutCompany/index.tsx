@@ -2,7 +2,7 @@ import React from "react";
 import { MdPhoneInTalk } from "react-icons/md";
 import { ImFileText2 } from "react-icons/im";
 import { AiOutlinePlus } from "react-icons/ai";
-import Meat from "../../assets/images/meat-new.jpg";
+import Crab from "../../assets/images/background1.jpeg";
 import "./AboutCompany.scss";
 import Button from "../Button/Button";
 
@@ -11,6 +11,9 @@ const AboutCompany: React.FC = () => {
     <div className="about-company-wrapper">
       <div className="mx pad">
         <div className="about-container">
+          <div className="second-content">
+            <img src={Crab} alt="" />
+          </div>
           <div className="first-content">
             <h6>about company</h6>
             <h3>Raw Meat Production by Leading Farm</h3>
@@ -37,9 +40,6 @@ const AboutCompany: React.FC = () => {
                 Read More
               </Button>
             </div>
-          </div>
-          <div className="second-content">
-            <img src={Meat} alt="" />
           </div>
         </div>
       </div>
