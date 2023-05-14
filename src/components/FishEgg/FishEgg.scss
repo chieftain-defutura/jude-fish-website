@@ -1,0 +1,29 @@
+.fish-egg-bg-img {
+  background-image: url("../../assets/images/fish-egg.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+
+  .fish-icons-content {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 32px;
+    place-items: center;
+    padding: 96px 45px;
+    .fish-para {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      .fish-icon {
+        width: 150px;
+        height: 150px;
+        color: orangered;
+      }
+      h6 {
+        font-size: 18px;
+        margin-top: 16px;
+      }
+    }
+  }
+}
